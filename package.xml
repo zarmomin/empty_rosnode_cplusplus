@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <name>empty_rosnode_cplusplus</name>
+  <version>0.0.0</version>
+
+  <description>
+    does something
+  </description>
+
+  <maintainer email="john@doe.edu">John Doe</maintainer>
+
+  <license>BSD</license>
+
+  <author email="john@doe.edu">John Doe</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>catkin_simple</buildtool_depend>
+  <build_depend>eigen_catkin</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>nav_msgs</run_depend>
+</package>
